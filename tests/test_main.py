@@ -1,4 +1,4 @@
-from python_template.main import add
+from quick_maths.main import add
 
 
 def test_add() -> None:

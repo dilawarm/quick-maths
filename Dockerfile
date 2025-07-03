@@ -1,7 +1,7 @@
 FROM python:3.12-slim
 
-WORKDIR "/python_template"
-COPY . /python_template
+WORKDIR "/quick_maths"
+COPY . /quick_maths
 
 ENV UV_PYTHON_PREFERENCE=managed
 ENV UV_PYTHON=3.12
